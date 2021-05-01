@@ -1,9 +1,9 @@
 @font-face{
     font-family: "Gilroy";
-    src: url(Gilroy/Gilroy-Light.woff);
-    src: url(Gilroy/Gilroy-Medium.woff);
-    srс: url(Gilroy/Gilroy-Regular.woff);
-    src: url(Gilroy/Gilroy-Bold.woff);
+    src: url("Font/Gilroy/Gilroy-Light.woff");
+    src: url("Font/Gilroy/Gilroy-Medium.woff");
+    srс: url("Font/Gilroy/Gilroy-Regular.woff");
+    src: url("Font/Gilroy/Gilroy-Bold.woff");
     font-style: normal;
     font-weight: normal;
 }
