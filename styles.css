@@ -1,3 +1,12 @@
+@font-face{
+    font-family: "Gilroy";
+    src: url(Gilroy/Gilroy-Light.woff);
+    src: url(Gilroy/Gilroy-Medium.woff);
+    srс: url(Gilroy/Gilroy-Regular.woff);
+    src: url(Gilroy/Gilroy-Bold.woff);
+    font-style: normal;
+    font-weight: normal;
+}
 body{
     margin: 0 auto;
     padding: 0;
