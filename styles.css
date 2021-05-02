@@ -364,4 +364,17 @@ a svg:focus #logotype{
     margin-right: 14px;
     padding-left: 47px;
 }
+a svg:hover #facebook,
+a svg:focus #facebook,
+a svg:hover #twitter,
+a svg:focus #twitter,
+a svg:hover #instagram,
+a svg:focus #instagram,
+a svg:hover #youtube,
+a svg:focus #youtube,
+a svg:hover #pinterest,
+a svg:focus #pinterest{
 
+    fill: brown;
+    stroke: black;
+}
