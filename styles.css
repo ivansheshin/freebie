@@ -4,7 +4,7 @@ body{
     margin: 0 auto;
     padding: 0;
     width: 1440px;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Gilroy, Regular';
     font-weight: 400;
     background-color: #FAFAFA;
@@ -68,12 +68,16 @@ a svg:focus #logotype{
     align-items: center;
     margin: 40px;
     margin-left: 80px;
+    font-size: 18px;
+    line-height: 22px
+
 }
 
 .main-header__site-navigation{
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
+
 }
 .main-header__site-navigation_menu{
     margin-right: 30px;
@@ -105,22 +109,34 @@ a svg:focus #logotype{
 }
 .services__first-block-text h2{
     font-size: 56px;
+    line-height: 69px;
+}
+.services__first-block-text p{
+    margin-top: 36px;
+    line-height: 28px;
 }
 
 .link__orange_first-block{
-    margin-top: 36px;
+    margin-top: 34px;
     padding: 15px 24px 15px 24px;
+    line-height: 22px;
 }
                 /* second block */
 .services__second-block-text{
     padding: 160px 160px 95px 160px;
 }
+.services__second-block-text h2{
+    font-size: 32px;
+    line-height: 45px;
+}
 .services__second-block-text p{
     margin-top: 23px;
+    line-height: 28px;
 }
 .link__orange_second-block{
     margin-top: 19px;
-    padding: 15px 45px 15px 45px;
+    padding: 15px 45px;
+    line-height: 24px;
 }
 
                 /* imaging */
