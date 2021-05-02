@@ -7,13 +7,11 @@ body{
     font-size: 18px;
     font-family: Gilroy;
     background-color: #FAFAFA;
-
 }
 a {
     text-decoration: none;
     color: #000000;
 }
-
 h2{
     margin: 0px;
     font-size: 32px;
@@ -65,9 +63,10 @@ a svg:focus #logotype{
 /* Header */
 .main-header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 27px 0px;
+    margin: 40px;
+    margin-left: 80px;
 }
 
 .main-header__site-navigation{
@@ -82,7 +81,7 @@ a svg:focus #logotype{
     margin-right: 0px;
 }
 .link__orange_nav{
-    padding: 13px 20px 13px 20px;
+    padding: 13px 20px;
 }
 
 /* Main */
@@ -94,6 +93,7 @@ a svg:focus #logotype{
     justify-content: space-between;
     padding-right: 0px;
 }
+
 .services__common-text{
     text-align: left;
     width: 50%;
@@ -106,6 +106,7 @@ a svg:focus #logotype{
     font-size: 56px;
     font-weight: 550;
 }
+.services__first-block-text
 .link__orange_first-block{
     margin-top: 50px;
     padding: 15px 24px 15px 24px;
