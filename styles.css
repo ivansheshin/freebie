@@ -39,7 +39,7 @@ a svg:focus #logotype{
 .link{
     display: inline-block;
     border: 1px solid;
-    border-radius: 7px;
+    border-radius: 5px;
     position: relative;
     text-align: center;
     padding: 17px;
@@ -215,13 +215,18 @@ a svg:focus #logotype{
     line-height: 45px;
 }
 .offer__link{
-    padding: 13px;
     margin-right: 16px;
     font-size: 18px;
     line-height: 22px;
 }
 .offer__link:last-child{
     margin-right: 0px;
+}
+.offer__link:first-child{
+    padding: 18px 24px 8px 25px;
+}
+.offer__link:last-child{
+    padding: 17px 16px 6px 17px;
 }
 .offer__link:hover,
 .offer__link:focus{
@@ -364,6 +369,9 @@ a svg:focus #logotype{
     margin-right: 14px;
     padding-left: 47px;
 }
+a svg{
+    transition: 10s;
+}
 a svg:hover #facebook,
 a svg:focus #facebook,
 a svg:hover #twitter,
@@ -374,7 +382,11 @@ a svg:hover #youtube,
 a svg:focus #youtube,
 a svg:hover #pinterest,
 a svg:focus #pinterest{
-
+    background-color: #000;
     fill: brown;
     stroke: black;
+}
+svg path{
+    stroke: none;
+    border-radius: 50%;
 }
