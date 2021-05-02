@@ -1,11 +1,11 @@
 @font-face{
-    font-family: "Gilroy";
+    font-family: "Gilroy, Regular";
     src: url("Font/Gilroy/Gilroy-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
 @font-face{
-    font-family: "Gilroy";
+    font-family: "Gilroy, Semibold";
     src:url("Font/Gilroy/Gilroy-SemiBold.woff") format("woff");
     font-style: normal;
     font-weight: normal;
