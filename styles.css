@@ -21,9 +21,7 @@ a {
     text-decoration: none;
     color: #000000;
 }
-header{
-    font-size: 18px;
-}
+
 h2{
     margin: 0px;
     font-size: 32px;
@@ -36,8 +34,8 @@ h2{
 /* Common */
 .site_navigation,
 .gifts__text,
-.blog_phrase,
-.blog_article,
+.blog__about,
+.blog__article,
 .footer__socialmedia,
 .abc{
     text-align: center;
@@ -177,7 +175,6 @@ h2{
     padding: 69px;
     background-color: #F7941E;
 }
-
 .offer_links span{
     font-weight: bold;
 }
@@ -197,6 +194,66 @@ h2{
     background-color: #231F20;
     color:#FFFFFF;
 }
+/* Section Blog */
+
+                    /* Main blog */
+.blog{
+    background-color: #FFFFFF;
+    padding: 70px 135px 40px;
+}
+.blog__main{
+    background-color: #231F20;
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFFFFF;
+
+    font-weight: 400;
+}
+.blog_personal a{
+    color: #FFFFFF;
+}
+.blog__main img{
+    width: 400px;
+    height: 370px;
+}
+.blog__main_text{
+    padding: 60px 200px 50px 80px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.blog__main_text_name{
+    font-size: 14px;
+}
+.blog__main_text_title{
+    font-size: 48px;
+}
+
+                    /* Additional blogs */
+.blog__articles{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+.blog__article{
+    text-align: left;
+    padding: 48px;
+}
+.blog__article:hover,
+.blog__article:focus{
+    box-shadow: 6px 6px 10px 1px #E5E5E5;
+    border-radius: 5px;
+}
+.blog__article h2{
+    font-size: 24px;
+}
+.blog__article a{
+    font-size: 14px;
+}
+
 
 
 
@@ -244,23 +301,7 @@ h2{
 }
 
 
-.blog{
-    background-color: #FFFFFF;
-    padding: 70px 135px 40px;
-}
-.blog_personal{
-    background-color: #231F20;
-    margin-top: 70px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    color: #FFFFFF;
 
-    font-weight: 400;
-}
-.blog_personal a{
-    color: #FFFFFF;
-}
 
 .site_navigation,
 .footer__socialmedia {
@@ -306,48 +347,7 @@ h2{
 
 
 
-.blog_img{
-    width: 400px;
-    height: 370px;
-}
-.blog_name{
-    font-size: 14px;
-}
-.blog_title{
-    font-size: 48px;
-}
-.blog_link{
-    font-size: 18px;
-}
-.blog_text{
-    padding: 60px 200px 50px 80px;
-    text-align: left;
-    font-weight: 400;
-}
-.blog_articles{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    margin-top: 40px;
-}
-.blog_article{
-    text-align: left;
-    padding: 48px;
-}
-.blog_article:hover,
-.blog_article:focus{
-    box-shadow: 6px 6px 10px 1px #E5E5E5;
-    border-radius: 5px;
-}
-.blog_article h2{
-    font-size: 24px;
-}
-.blog_article p{
-    font-size: 18px;
-}
-.blog_article a{
-    font-size: 14px;
-}
+
 .footer__navigation{
     display: flex;
     justify-content: space-around;
