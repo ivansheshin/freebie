@@ -152,6 +152,11 @@ a svg:focus #logotype{
 }
 .gifts__text h2{
     font-weight: inherit;
+    font-size: 32px;
+    line-height: 38px;
+}
+.gifts__text p{
+    line-height: 24px;
 }
 .gift__block{
     display: flex;
@@ -181,28 +186,39 @@ a svg:focus #logotype{
 .gift__item p{
     padding-left: 24px;
 }
+.gift__item p{
+    line-height: 24px;
+}
 .gift__item a{
     font-size: 14px;
+    line-height: 19px;
 }
 
 /* Div Offer */
 
 .offer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 69px;
     background-color: #F7941E;
 }
-.offer_links span{
-    font-weight: bold;
+
+.offer span{
+    font-weight: 700;
 }
 .offer p{
     font-size: 32px;
 }
+.offer__connection{
+    font-size: 32px;
+    line-height: 45px;
+}
 .offer__link{
     padding: 13px;
     margin-right: 16px;
+    font-size: 18px;
+    line-height: 22px;
 }
 .offer__link:last-child{
     margin-right: 0px;
@@ -220,6 +236,15 @@ a svg:focus #logotype{
     background-color: #FFFFFF;
     padding: 70px 135px 40px;
 }
+.blog__about h2{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+.blog__about p{
+    font-size: 18px;
+    line-height: 24px;
+}
 .blog__main{
     background-color: #231F20;
     margin-top: 70px;
@@ -227,8 +252,7 @@ a svg:focus #logotype{
     justify-content: flex-start;
     align-items: center;
     color: #FFFFFF;
-
-    font-weight: 400;
+    
 }
 .blog_personal a{
     color: #FFFFFF;
@@ -245,9 +269,16 @@ a svg:focus #logotype{
 
 .blog__main_text_name{
     font-size: 14px;
+    line-height: 19.7px;
 }
 .blog__main_text_title{
     font-size: 48px;
+    line-height: 57.6px;
+}
+.blog__main_text a{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
 
                     /* Additional blogs */
@@ -255,12 +286,25 @@ a svg:focus #logotype{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .blog__article{
     text-align: left;
     padding: 48px;
 }
+.blog__article h2{
+    font-size: 24px;
+    line-height: 33.75px;
+}
+.blog__article p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.blog__article a{
+    font-size: 14px;
+    line-height: 20px;
+}
+
 .blog__article:hover,
 .blog__article:focus{
     box-shadow: 6px 6px 10px 1px #E5E5E5;
@@ -280,6 +324,9 @@ a svg:focus #logotype{
     margin: 115px 225px 35px 225px;
     align-items: center;
     border-bottom: 2px solid #000000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
 }
 .footer__navigation_links{
     display: flex;
@@ -310,6 +357,8 @@ a svg:focus #logotype{
     align-items: center;
     margin-top: 72px;
     margin-bottom: 35px;
+    font-size: 14px;
+    line-height: 20px;
 }
 .footer__term p{
     margin-right: 14px;
