@@ -23,7 +23,8 @@ h2 {
     margin: 0;
     font-size: 32px;
 }
-ul{
+
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -35,14 +36,6 @@ ul{
 }
 
 /* Common */
-.gifts__text,
-.blog__about,
-.blog__article,
-.footer__socialmedia,
-.abc {
-    text-align: center;
-}
-
 .link {
     display: inline-block;
     border: 2px solid;
@@ -93,15 +86,16 @@ ul{
 /* Main */
 
 /* Section Service */
-.service{
+.service {
     background-color: #F1F1F2;
     display: flex;
 }
 
-.service__content {
+.service__text {
     width: 50%;
 
 }
+
 .service__img {
     width: 50%;
 }
@@ -132,7 +126,8 @@ ul{
     font-size: 32px;
     line-height: 45px;
 }
-.service__paragraph_second-block{
+
+.service__paragraph_second-block {
     margin-top: 23px;
     margin-bottom: 35px;
 }
@@ -165,7 +160,8 @@ ul{
     line-height: 24px;
     margin: 23px 0 64px;
 }
-.gift__text-content{
+
+.gift__text-content {
     text-align: center;
 }
 
@@ -179,11 +175,10 @@ ul{
     margin-right: 30px;
     min-height: 436px;
     width: 270px;
-    padding-bottom: 24px;
     word-wrap: break-word;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     transition: 0.3s;
 }
 
@@ -197,14 +192,15 @@ ul{
     margin-right: 0px;
 }
 
-.gift__card-text{
-    padding-left: 24px;
+.gift__card-text {
+    padding: 24px;
 }
 
 .gift__product-name {
     line-height: 24px;
-    margin: 24px 0 74px;
     font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 74px;
 }
 
 .gift__link {
@@ -228,71 +224,67 @@ ul{
 
 .offer__paragraph {
     font-size: 32px;
-}
-
-.offer__text {
-    font-size: 32px;
     line-height: 45px;
 }
 
-.offer__link {
+.offer__link_black {
     margin-right: 16px;
     font-size: 18px;
     line-height: 22px;
-}
-
-.offer__link:last-child {
-    margin-right: 0px;
-    padding: 14px 16px;
-}
-
-.offer__link:first-child {
     padding: 14px 24px;
 }
 
-.offer__link:hover{
-    transition: 0,3s;
+.offer__link_black:last-child {
+    margin-right: 0px;
 }
 
-.offer__link:hover,
-.offer__link:focus {
+.offer__link_black:hover {
+    transition: 0, 3s;
+}
+
+.offer__link_black:hover,
+.offer__link_black:focus {
     border-color: #231F20;
     background-color: #231F20;
-    color: #FFFFFF;
+    color: #FFF;
 }
 
 /* Section Blog */
 
 /* Main blog */
 .blog {
-    background-color: #FFFFFF;
+    background-color: #FFF;
     padding: 70px auto 40px;
+}
+
+.blog__about {
+    text-align: center;
 }
 
 .blog__about-title {
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
+    padding-top: 88px;
 }
 
 .blog__about-text {
     font-size: 18px;
     line-height: 24px;
+    margin: 0;
+    padding: 23px 0 71px;
 }
 
 .blog__main {
-    background-color: #231F20;
-    margin: 0 50px;
-    margin-top: 70px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: #FFFFFF;
+    color: #FFF;
 
 }
 
 .blog__main-text {
     padding: 60px 200px 50px 80px;
+    background-color: #231F20;
 }
 
 .blog__main-name {
@@ -315,11 +307,23 @@ ul{
 .article {
     display: flex;
     margin-top: 20px;
+    justify-content: center;
+
+}
+
+.blog__article_left-text {
+    margin-right: 37px;
+    width: 39%;
+}
+
+.blog__article_right-text {
+    width: 39%;
 }
 
 .blog__article {
     padding: 48px;
-    transition: 0,3s;
+    transition: 0, 3s;
+
 }
 
 .blog__article-title {
@@ -347,13 +351,13 @@ ul{
 
 .footer__navigation {
     display: flex;
-    justify-content: space-around;
-    margin: 115px 0 35px;
-    align-items: center;
+    justify-content: center;
+    margin: 115px 220px 35px;
     border-bottom: 2px solid #000;
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
+    padding-bottom: 53px;
 }
 
 .footer__navigation-list {
@@ -362,6 +366,10 @@ ul{
 
 .footer__navigation-item {
     margin-right: 81px;
+}
+
+.footer__logotype {
+    margin: 0 141px;
 }
 
 .footer__navigation-item:last-child {
@@ -398,26 +406,25 @@ ul{
     margin-right: 14px;
 }
 
-a svg {
-    transition: 0,3s;
-}
-
-a svg:hover #facebook,
-a svg:focus #facebook,
-a svg:hover #twitter,
-a svg:focus #twitter,
-a svg:hover #instagram,
-a svg:focus #instagram,
-a svg:hover #youtube,
-a svg:focus #youtube,
-a svg:hover #pinterest,
-a svg:focus #pinterest {
+.facebook-svg:hover #facebook,
+.facebook-svg:focus #facebook,
+.twitter-svg:hover #twitter,
+.twitter-svg:focus #twitter,
+.instagram-svg:hover #instagram,
+.instagram-svg:focus #instagram,
+.youtube-svg:hover #youtube,
+.youtube-svg:focus #youtube,
+.pinterest-svg:hover #pinterest,
+.pinterest-svg:focus #pinterest {
     background-color: #000;
     fill: brown;
-    stroke: black;
+    stroke: 000;
 }
 
-svg path {
-    stroke: none;
-    border-radius: 50%;
+.facebook-svg:hover #facebook,
+.twitter-svg:hover #twitter,
+.instagram-svg:hover #instagram,
+.youtube-svg:hover #youtube,
+.pinterest-svg:hover #pinterest {
+    transition: 0.3s;
 }
