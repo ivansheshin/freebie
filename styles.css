@@ -456,7 +456,7 @@ ul {
 .footer__svg:hover {
     background-color: #961218;
     fill: #FAFAFA;
-    transition: 0.3s;
+    transition: 0.8s;
 }
 
 .footer__svg:hover path {
