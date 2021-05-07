@@ -313,7 +313,8 @@ ul {
 
     position: relative;
 }
-.blog__main-link::after{
+
+.blog__main-link::after {
     content: "";
     position: absolute;
     top: 21px;
@@ -322,7 +323,8 @@ ul {
     height: 1px;
     background-color: #FFF;
 }
-.blog__main-link:hover::after{
+
+.blog__main-link:hover::after {
     width: 100%;
     transition: 1s;
     animation: cubic-bezier(0, 0.8, 0.9, 1);
@@ -348,7 +350,7 @@ ul {
 
 .blog__article {
     padding: 48px;
-    transition: 0,3s;
+    transition: 0, 3s;
 
 }
 
@@ -367,10 +369,12 @@ ul {
     line-height: 20px;
 
 }
-.link_underline{
+
+.link_underline {
     position: relative;
 }
-.link_underline::after{
+
+.link_underline::after {
     content: "";
     position: absolute;
     height: 1px;
@@ -378,9 +382,10 @@ ul {
     left: 0;
     top: 17px;
     background-color: #000;
-    
+
 }
-.link_underline:hover::after{
+
+.link_underline:hover::after {
     width: 100%;
     transition: 1s;
     animation: cubic-bezier(0, 0.8, 0.9, 1);
