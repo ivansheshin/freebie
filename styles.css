@@ -33,6 +33,7 @@ ul {
 .logotype:hover #logotype,
 .logotype:focus #logotype {
     fill: #961218;
+    transition: 0.3s;
 }
 
 /* Common */
