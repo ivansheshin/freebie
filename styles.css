@@ -32,7 +32,7 @@ ul {
 
 .logotype:hover #logotype,
 .logotype:focus #logotype {
-    fill: #F7941E;
+    fill: #961218;
 }
 
 /* Common */
@@ -45,13 +45,13 @@ ul {
 }
 
 .link_orange {
-    border-color: #F7941E;
-    color: #F7941E;
+    border-color: #961218;
+    color: #961218;
 }
 
 .link_orange:hover,
 .link_orange:focus {
-    background-color: #F7941E;
+    background-color: #961218;
     color: #FFFFFF;
 }
 
@@ -221,7 +221,7 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     padding: 69px;
-    background-color: #F7941E;
+    background-color: #961219e7;
 }
 
 .offer__paragraph_bold {
@@ -415,7 +415,7 @@ ul {
 }
 
 .footer__svg:hover {
-    background-color: #F7941E;
+    background-color: #961218;
     fill: #FAFAFA;
     transition: 0.3s;
 }
