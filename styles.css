@@ -63,7 +63,12 @@ ul {
     padding: 40px;
     padding-left: 80px;
     font-size: 18px;
-    line-height: 22px
+    line-height: 22px;
+    position: sticky;
+    top: 0;
+    left: 132px;
+    background-color: #FFF;
+
 }
 
 .header-navigation__list {
