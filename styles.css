@@ -315,16 +315,15 @@ ul {
     content: "";
     position: absolute;
     top: 21px;
-    left: 1px;
-    width: 0px;
+    left: 0;
+    width: 0;
     height: 1px;
     background-color: #FFF;
 }
 .blog__main-link:hover::after{
     width: 100%;
-    height: 1px;
     transition: 1s;
-    animation: cubic-bezier(0, 0.1, 0.9, 1);
+    animation: cubic-bezier(0, 0.8, 0.9, 1);
 
 }
 
@@ -347,7 +346,7 @@ ul {
 
 .blog__article {
     padding: 48px;
-    transition: 0, 3s;
+    transition: 0,3s;
 
 }
 
@@ -364,6 +363,23 @@ ul {
 .blog__article-link {
     font-size: 14px;
     line-height: 20px;
+
+    position: relative;
+}
+.blog__article-link::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 0;
+    left: 0;
+    top: 17px;
+    background-color: #000;
+    
+}
+.blog__article-link:hover::after{
+    width: 100%;
+    transition: 1s;
+    animation: cubic-bezier(0, 0.8, 0.9, 1);
 }
 
 .blog__article:hover,
