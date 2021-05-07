@@ -364,9 +364,11 @@ ul {
     font-size: 14px;
     line-height: 20px;
 
+}
+.link_underline{
     position: relative;
 }
-.blog__article-link::after{
+.link_underline::after{
     content: "";
     position: absolute;
     height: 1px;
@@ -376,7 +378,7 @@ ul {
     background-color: #000;
     
 }
-.blog__article-link:hover::after{
+.link_underline:hover::after{
     width: 100%;
     transition: 1s;
     animation: cubic-bezier(0, 0.8, 0.9, 1);
