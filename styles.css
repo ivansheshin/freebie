@@ -53,6 +53,7 @@ ul {
 .link_orange:focus {
     background-color: #961218;
     color: #FFFFFF;
+    transition: 0.3s;
 }
 
 /* Header */
@@ -245,7 +246,7 @@ ul {
 }
 
 .offer__link_black:hover {
-    transition: 0, 3s;
+    transition: 0.3s;
 }
 
 .offer__link_black:hover,
