@@ -411,25 +411,18 @@ ul {
     margin-right: 14px;
 }
 
-.facebook-svg:hover #facebook,
-.facebook-svg:focus #facebook,
-.twitter-svg:hover #twitter,
-.twitter-svg:focus #twitter,
-.instagram-svg:hover #instagram,
-.instagram-svg:focus #instagram,
-.youtube-svg:hover #youtube,
-.youtube-svg:focus #youtube,
-.pinterest-svg:hover #pinterest,
-.pinterest-svg:focus #pinterest {
-    background-color: #000;
-    fill: brown;
-    stroke: 000;
+.footer__svg {
+    border-radius: 50%;
+
 }
 
-.facebook-svg:hover #facebook,
-.twitter-svg:hover #twitter,
-.instagram-svg:hover #instagram,
-.youtube-svg:hover #youtube,
-.pinterest-svg:hover #pinterest {
+.footer__svg:hover {
+    background-color: #F7941E;
+    fill: #FAFAFA;
     transition: 0.3s;
+}
+
+.footer__svg:hover path {
+    fill: #FAFAFA;
+
 }
