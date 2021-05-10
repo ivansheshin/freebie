@@ -610,11 +610,11 @@ ul {
 
 .modal-animation-closing {
     animation-name: modal-animation-close;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 
 }
 
 .modal-animation-opening {
     animation-name: modal-animation-open;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 }
