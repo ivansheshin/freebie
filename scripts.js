@@ -23,13 +23,14 @@ overlay.addEventListener('click', function(evt){
 })
 window.addEventListener('keydown', function(evt){
     if(evt.keyCode === 27) {
-        evt.preventDefault();
         if(modal.classList.contains('modal-show')){
             modal.classList.remove('modal-show');
+            evt.preventDefault();
 
         }
         if(overlay.classList.contains('modal-show')){
-            overlay.classList.remove('modal-show')
+            overlay.classList.remove('modal-show');
+            evt.preventDefault();
         }
     }
 
