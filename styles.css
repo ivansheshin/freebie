@@ -539,12 +539,16 @@ ul {
     margin: 0;
     padding: 25px 25px;
     width: 200px;
-
+    text-align: center;
 
     border-radius: 10px;
     text-transform: uppercase;
 }
-
+.modal-gifts__paragraph:hover{
+    background-color: #F1F1F2;
+    color: #961218;
+    transition: 0.3s;
+}
 .modal-show {
     display: block;
     animation-name: modal-animation;
