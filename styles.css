@@ -1,9 +1,15 @@
 @import 'font.css';
 
 @keyframes modal-animation {
-    0% {transform:  translateY(3000px);}
-    90% {transform: translateY(10px);}
+    0% {
+        transform: translateY(3000px);
+    }
+
+    90% {
+        transform: translateY(10px);
+    }
 }
+
 *,
 *::before,
 *::after {
@@ -33,7 +39,8 @@ ul {
     padding: 0;
     margin: 0;
 }
-.overlay{
+
+.overlay {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -44,6 +51,7 @@ ul {
     left: 0;
     display: none;
 }
+
 .logotype:hover #logotype,
 .logotype:focus #logotype {
     fill: #961218;
@@ -544,11 +552,13 @@ ul {
     border-radius: 10px;
     text-transform: uppercase;
 }
-.modal-gifts__paragraph:hover{
+
+.modal-gifts__paragraph:hover {
     background-color: #F1F1F2;
     color: #961218;
     transition: 0.3s;
 }
+
 .modal-show {
     display: block;
     animation-name: modal-animation;
