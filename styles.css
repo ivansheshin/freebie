@@ -468,3 +468,45 @@ ul {
     fill: #FAFAFA;
 
 }
+/* Модалка */
+.modal-gifts{
+    background-color: #FFF;
+    border: 8px solid #961218;
+    border-radius: 15px;
+    width: 450px;
+    padding: 20px;
+
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-left: -225px;
+    display: none;
+
+}
+.modal-gifts__link{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border: 3px solid #961218;
+    padding: 10px 0;
+   
+}
+.modal-gifts__link_last-item{
+    margin-bottom: 0px;
+}
+.modal-gifts__image{
+    width: 20%;
+    height: auto;
+}
+.modal-gifts__paragraph{
+    background-color: #961218;
+    color: #F1F1F2;
+    margin: 0;
+    padding: 25px 25px;
+    width: 200px;
+
+    
+    border-radius: 10px;
+    text-transform: uppercase;
+}
