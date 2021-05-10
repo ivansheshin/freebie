@@ -1,12 +1,22 @@
 @import 'font.css';
 
-@keyframes modal-animation {
+@keyframes modal-animation-open {
     0% {
         transform: translateY(3000px);
     }
 
     90% {
         transform: translateY(10px);
+    }
+}
+
+@keyframes modal-animation-close {
+    0% {
+        transform: translateY(0);
+    }
+
+    90% {
+        transform: translateY(-3000px);
     }
 }
 
@@ -40,17 +50,6 @@ ul {
     margin: 0;
 }
 
-.overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: none;
-}
 
 .logotype:hover #logotype,
 .logotype:focus #logotype {
@@ -522,6 +521,18 @@ ul {
 
 }
 
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
 .modal-gifts__link {
 
     display: flex;
@@ -559,11 +570,7 @@ ul {
     transition: 0.3s;
 }
 
-.modal-show {
-    display: block;
-    animation-name: modal-animation;
-    animation-duration: 0.5s;
-}
+
 
 .modal-close {
     width: 22px;
@@ -595,4 +602,19 @@ ul {
 
 .modal-close::after {
     transform: rotate(-45deg);
+}
+
+.modal_display-block {
+    display: block;
+}
+
+.modal-animation-closing {
+    animation-name: modal-animation-close;
+    animation-duration: 1s;
+
+}
+
+.modal-animation-opening {
+    animation-name: modal-animation-open;
+    animation-duration: 1s;
 }
