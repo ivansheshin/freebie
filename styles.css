@@ -594,6 +594,8 @@ ul {
     width: 19px;
     height: 3px;
     background-color: #FFF;
+    padding: 0;
+    margin: 0;
 }
 
 .modal-close::before {
