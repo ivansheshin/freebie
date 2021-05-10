@@ -1,5 +1,9 @@
 @import 'font.css';
 
+@keyframes modal-animation {
+    0% {transform:  translateY(3000px);}
+    90% {transform: translateY(10px);}
+}
 *,
 *::before,
 *::after {
@@ -543,6 +547,8 @@ ul {
 
 .modal-show {
     display: block;
+    animation-name: modal-animation;
+    animation-duration: 0.5s;
 }
 
 .modal-close {
