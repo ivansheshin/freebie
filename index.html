@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freebie</title>
-    <script src="scripts.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -28,7 +27,7 @@
                 <li class="header-navigation__item"><a href="">Blogs</a></li>
             </ul>
         </nav>
-        <a class="link link_orange main-header__link" href="">Gift Finder</a>
+        <button class="btn btn_orange main-header__btn btn_popup">Gift Finder</button>
     </header>
     <main class="main">
         <section class="service">
@@ -37,7 +36,7 @@
                 <p class="service__paragraph service__paragraph_first-block">Struggling to find a gift for
                     your wife or <br> girlfriend? No
                     problem!</p>
-                <a class="link link_orange service__link service__link_first-block" href="">Find gift now</a>
+                <button class="btn btn_orange service__btn service__btn_first-block btn_popup">Find gift now</button>    
             </div>
             <img class="service__img" src="img/Background1.png" alt="couple in love">
         </section>
@@ -52,7 +51,7 @@
                     All you have to do is take our short survey that only takes seconds, and our proprietary
                     algorithm
                     will match you with a few perfect gift options.</p>
-                <a class="link link_orange service__link_second-block" href="">Learn more</a>
+                <a class="link btn_orange service__link_second-block" href="">Learn more</a>
             </div>
         </section>
         <section class="gift">
@@ -98,8 +97,8 @@
                         href="">contact us</a></p>
             </div>
             <div>
-                <a class="link offer__link_black" href="">Find gift now</a>
-                <a class="link offer__link_black" href="">How it works</a>
+                <button class="btn offer__btn_black btn_popup">Find gift now</button>
+                <button class="btn offer__btn_black btn_popup">How it works</button>
             </div>
         </div>
         <section class="blog">
@@ -195,6 +194,7 @@
         </div>
     </footer>
     <section class="modal-gifts">
+        <button class="modal-close" aria-label="close modal window"></button>
         <ul class="modal-gifts__list">
             <li class="modal-gifts__item">
                 <a class="modal-gifts__link" aria-label="birthday gift" href="">
@@ -222,6 +222,7 @@
             </li>
         </ul>
     </section>
+    <script src="scripts.js"></script>
 </body>
 
 </html>

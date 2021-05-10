@@ -44,14 +44,24 @@ ul {
     padding: 17px;
     text-transform: uppercase;
 }
+.btn{
+    font-family: inherit;
+    font-size: inherit;
 
-.link_orange {
+    border: 2px solid;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+    background-color: transparent;
+}
+
+.btn_orange {
     border-color: #961218;
     color: #961218;
 }
 
-.link_orange:hover,
-.link_orange:focus {
+.btn_orange:hover,
+.btn_orange:focus {
     background-color: #961218;
     color: #FFFFFF;
     transition: 0.3s;
@@ -86,8 +96,11 @@ ul {
     margin-right: 0px;
 }
 
-.main-header__link {
+.main-header__btn {
     padding: 13px 20px;
+    background-color: #FFF;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 /* Main */
@@ -122,9 +135,10 @@ ul {
     line-height: 28px;
 }
 
-.service__link_first-block {
+.service__btn_first-block {
     padding: 15px 24px;
     line-height: 22px;
+
 }
 
 /* second block */
@@ -235,23 +249,23 @@ ul {
     line-height: 45px;
 }
 
-.offer__link_black {
+.offer__btn_black {
     margin-right: 16px;
     font-size: 18px;
     line-height: 22px;
     padding: 14px 24px;
 }
 
-.offer__link_black:last-child {
+.offer__btn_black:last-child {
     margin-right: 0px;
 }
 
-.offer__link_black:hover {
+.offer__btn_black:hover {
     transition: 0.3s;
 }
 
-.offer__link_black:hover,
-.offer__link_black:focus {
+.offer__btn_black:hover,
+.offer__btn_black:focus {
     border-color: #231F20;
     background-color: #231F20;
     color: #FFF;
@@ -509,4 +523,36 @@ ul {
     
     border-radius: 10px;
     text-transform: uppercase;
+}
+.modal-show{
+    display: block;
+}
+.modal-close{
+    width: 22px;
+    height: 22px;
+    font-size: 0;
+    border: 2px solid #961218;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #961218;
+    position: absolute;
+    top: -5px;
+    right: -34px;
+}
+
+.modal-close::before,
+.modal-close::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 19px;
+    height: 3px;
+    background-color: #FFF;
+}
+.modal-close::before{
+    transform: rotate(45deg);
+}
+.modal-close::after{
+    transform: rotate(-45deg);
 }
