@@ -2,7 +2,7 @@
  const findgift = document.querySelectorAll('.btn_popup');
  const modal = document.querySelector('.modal-gifts');
  const overlay = document.querySelector('.overlay');
-
+// анимация открытия модалки
  findgift.forEach(function (findgift) {
      findgift.addEventListener('click', function (evt) {
          evt.preventDefault();
@@ -31,7 +31,7 @@
  animationModal(modalСlose, modal, overlay);
  animationModal(overlay, modal, overlay);
 
-
+// закрытие по клавише escape
 
  window.addEventListener('keydown', function (evt) {
      if (modal.classList.contains('modal_display-block') && evt.key === "Escape") {
