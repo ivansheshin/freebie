@@ -4,14 +4,14 @@ function initListeners() {
     const overlay = document.querySelector('.overlay');
 
     findgift.forEach(function (findgift) {
-        findgift.addEventListener('click', function (evt) {
+        findgift.addEventListener('click', function () {
             openModal(modal, overlay)
         })
 
     });
     const modalСloseBtn = document.querySelector('.modal-close');
 
-    modalСloseBtn.addEventListener('click', function (evt) {
+    modalСloseBtn.addEventListener('click', function () {
         closeModal(modal, overlay)
     })
     window.addEventListener('keydown', function (evt) {
